@@ -50,6 +50,49 @@
     </div>
   </div>
 
+<br>
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="../images/ima15.png" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title">Car Mechanic</h4>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+<br>
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="../images/ima16.png" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title">Arcade</h4>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+<br>
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="../images/ima17.png" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title">Farming Simulator</h4>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+<br>
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="../images/ima18.jpg" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title">Fifa 2020</h4>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+
+
+
 </div>
 
 </body>
