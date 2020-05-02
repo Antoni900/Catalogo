@@ -19,7 +19,8 @@ class CreateGameTable extends Migration
             $table-> string ('image_url');
             $table->longText('description');
             $table-> double ('price');
-            
+            $table->string('trailer_url');
+
 
             $table-> unsignedInteger('fk_id_category');
             $table-> foreign('fk_id_category')-> references('id')->on('category');

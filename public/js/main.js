@@ -5,4 +5,10 @@ $('.toggle').click(function(){
         'padding-bottom': 'toggle',
         opacity: 'toggle'
     }, "slow");
+
+    if ($(this).text().trim() === 'Crear cuenta') {
+        $(this).text('Iniciar sesión')
+    } else {
+        $(this).text('Crear cuenta')
+    }
 });

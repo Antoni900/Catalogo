@@ -10,7 +10,11 @@ body {
     background: url(../images/ima14.jpg);
     background-size: cover;
     background-attachment: fixed;
-    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+.color-white {
+    color: #FFFFFF;
 }
 
 .contenedor-form {
@@ -54,9 +58,7 @@ body {
     font-weight: 400;
     line-height: 1;
 }
-.contenedor-form input[type="text"],
-.contenedor-form input[type="password"],
-.contenedor-form input[type="email"] {
+.form-control {
     outline: none;
     display: block;
     width: 100%;
@@ -68,16 +70,15 @@ body {
     border-radius: 2px;
     border-bottom: 4px solid #ff851b;
     box-sizing: border-box;
-    font-family: Roboto;
     font-size: 14px;
     font-weight:normal;
     transition: all .5s ease;
 }
 
-.contenedor-form input[type="text"]:focus,
-.contenedor-form input[type="password"]:focus,
-.contenedor-form input[type="email"]:focus {
+.form-control:focus {
     border-bottom: 4px solid #0075d9;
+    background: rgba(0,0,0,.5);
+    color: #fff;
 }
 
 .contenedor-form input[type="submit"] {
@@ -88,10 +89,10 @@ body {
     padding: 10px 0;
     font-size: 16px;
     font-weight: normal;
-    font-family: Roboto;
     letter-spacing: 1px;
     cursor: pointer;
     transition: all .5s ease;
+    border-radius: 8px;
 }
 
 .contenedor-form input[type="submit"]:hover {
@@ -120,4 +121,8 @@ body {
 
 .contenedor-form .formulario:nth-child(2) {
     display: block;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, .7);
 }
